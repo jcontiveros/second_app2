@@ -22,6 +22,7 @@ class UsersController < ApplicationController
   end
 
   # GET /users/new
+
   # GET /users/new.json
   def new
     @user = User.new
